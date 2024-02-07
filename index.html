@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="seo icin onemli" />
     <link rel="shortcut icon" href="/img/logo.webp" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="still.css" />
     <title>Document</title>
+    <style>
+      .par {
+        /* internel */
+        color: white;
+        background-color: red;
+      }
+      #container {
+        border: 2px solid yellowgreen;
+      }
+    </style>
   </head>
   <body>
     <h1>Bu bir h1 etiketidir</h1>
@@ -16,22 +26,34 @@
     <h5>Bu bir h5 etiketidir</h5>
     <h6>Bu bir h6 etiketidir</h6>
 
-    <div>
-      <p>
+    <div id="container">
+      <p class="par">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
         voluptates accusantium, quae soluta cumque neque repellat nobis officiis
         molestiae, veritatis architecto impedit illum natus adipisci odio
         eveniet alias cum reprehenderit.
       </p>
-      <p>
+      <!-- inline -->
+      <p style="color: blueviolet; background-color: beige">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
         autem saepe consequatur vitae distinctio quia sit at officiis voluptatem
         veniam.
       </p>
-      <p>
+      <p class="par">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quasi
         illum sunt atque? Laborum.
       </p>
     </div>
+    <section>
+      Lorem, ipsum <u> dolor </u>sit amet <em>consectetur </em> adipisicing
+      <del> elit.</del> Iste<mark>cupiditate</mark> hic nobis quod, voluptatum
+      <b>fuga</b> <strong>aspernatur</strong> quisquam ipsam sunt odio. Fuga
+      adipisci nostrum saepe a accusantium blanditiis, illum consectetur dolore?
+    </section>
+    <br />
+    <article>bu urunun fiyati <span style="color: red">500 TL </span></article>
+
+    <p>Suyun formulu H<sub>2</sub>0</p>
+    <p>formul x<sup>2</sup>+ 3</p>
   </body>
 </html>
